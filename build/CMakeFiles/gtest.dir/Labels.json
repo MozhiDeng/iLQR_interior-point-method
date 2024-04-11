@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/dmz/Baidu/ipddp_test/build/CMakeFiles/gtest"
+		},
+		{
+			"file" : "/home/dmz/Baidu/ipddp_test/build/CMakeFiles/gtest.rule"
+		},
+		{
+			"file" : "/home/dmz/Baidu/ipddp_test/build/CMakeFiles/gtest-complete.rule"
+		},
+		{
+			"file" : "/home/dmz/Baidu/ipddp_test/build/gtest/src/gtest-stamp/gtest-build.rule"
+		},
+		{
+			"file" : "/home/dmz/Baidu/ipddp_test/build/gtest/src/gtest-stamp/gtest-configure.rule"
+		},
+		{
+			"file" : "/home/dmz/Baidu/ipddp_test/build/gtest/src/gtest-stamp/gtest-download.rule"
+		},
+		{
+			"file" : "/home/dmz/Baidu/ipddp_test/build/gtest/src/gtest-stamp/gtest-install.rule"
+		},
+		{
+			"file" : "/home/dmz/Baidu/ipddp_test/build/gtest/src/gtest-stamp/gtest-mkdir.rule"
+		},
+		{
+			"file" : "/home/dmz/Baidu/ipddp_test/build/gtest/src/gtest-stamp/gtest-patch.rule"
+		},
+		{
+			"file" : "/home/dmz/Baidu/ipddp_test/build/gtest/src/gtest-stamp/gtest-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gtest"
+		],
+		"name" : "gtest"
+	}
+}
