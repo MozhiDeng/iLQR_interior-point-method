@@ -7,13 +7,13 @@
 std::vector<std::vector<double>> load_data(int i) {
 
     std::vector<std::string> fileNames;
-    std::string input_path = "/home/dmz/Baidu/ipddp_test/road_data";
+    std::string input_path = "/home/car/Project/iLQR_interior-point-method/road_data";
     std::string fileName = input_path + "/" + "data" + std::to_string(i) + ".txt";
  
     std::ifstream file(fileName);
     std::cout << fileName << std::endl;
     if(!file.is_open()) {
-        //std::cout << "Failed to open the file" << std::endl;
+        std::cout << "Failed to open the file" << std::endl;
     } else {
         //std::cout << "Succeed open the file" << std::endl;
     }

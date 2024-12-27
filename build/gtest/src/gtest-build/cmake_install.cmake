@@ -1,4 +1,4 @@
-# Install script for directory: /home/dmz/Baidu/ipddp_test/build/gtest/src/gtest
+# Install script for directory: /home/car/Project/iLQR_interior-point-method/build/gtest/src/gtest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/dmz/Baidu/ipddp_test/build/gtest/src/gtest-build/googlemock/cmake_install.cmake")
+  include("/home/car/Project/iLQR_interior-point-method/build/gtest/src/gtest-build/googlemock/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dmz/Baidu/ipddp_test/build/gtest/src/gtest-build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/car/Project/iLQR_interior-point-method/build/gtest/src/gtest-build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

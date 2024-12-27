@@ -1,79 +1,27 @@
-Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/dmz/Baidu/ipddp_test/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_a7042/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a7042.dir/build.make CMakeFiles/cmTC_a7042.dir/build
-make[1]: Entering directory '/home/dmz/Baidu/ipddp_test/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a7042.dir/CheckSymbolExists.c.o
-/usr/bin/gcc    -o CMakeFiles/cmTC_a7042.dir/CheckSymbolExists.c.o   -c /home/dmz/Baidu/ipddp_test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_a7042
-/opt/cmake-3.12.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7042.dir/link.txt --verbose=1
-/usr/bin/gcc      CMakeFiles/cmTC_a7042.dir/CheckSymbolExists.c.o  -o cmTC_a7042 
-CMakeFiles/cmTC_a7042.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
-collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_a7042.dir/build.make:86: recipe for target 'cmTC_a7042' failed
-make[1]: *** [cmTC_a7042] Error 1
-make[1]: Leaving directory '/home/dmz/Baidu/ipddp_test/build/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_a7042/fast' failed
-make: *** [cmTC_a7042/fast] Error 2
-
-File /home/dmz/Baidu/ipddp_test/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
-/* */
-#include <pthread.h>
-
-int main(int argc, char** argv)
-{
-  (void)argv;
-#ifndef pthread_create
-  return ((int*)(&pthread_create))[argc];
-#else
-  (void)argc;
-  return 0;
-#endif
-}
-
-Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/dmz/Baidu/ipddp_test/build/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_4a8bd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4a8bd.dir/build.make CMakeFiles/cmTC_4a8bd.dir/build
-make[1]: Entering directory '/home/dmz/Baidu/ipddp_test/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4a8bd.dir/CheckFunctionExists.c.o
-/usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4a8bd.dir/CheckFunctionExists.c.o   -c /opt/cmake-3.12.2/share/cmake-3.12/Modules/CheckFunctionExists.c
-Linking C executable cmTC_4a8bd
-/opt/cmake-3.12.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a8bd.dir/link.txt --verbose=1
-/usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_4a8bd.dir/CheckFunctionExists.c.o  -o cmTC_4a8bd -lpthreads 
-/usr/bin/ld: cannot find -lpthreads
-collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_4a8bd.dir/build.make:86: recipe for target 'cmTC_4a8bd' failed
-make[1]: *** [cmTC_4a8bd] Error 1
-make[1]: Leaving directory '/home/dmz/Baidu/ipddp_test/build/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_4a8bd/fast' failed
-make: *** [cmTC_4a8bd/fast] Error 2
-
-
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/dmz/Baidu/ipddp_test/build/CMakeFiles/CMakeScratch/TryCompile-QLlPqF
+Change Dir: /home/car/Project/iLQR_interior-point-method/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/dmz/anaconda3/bin/ninja cmTC_ea052 && [1/2] Building C object CMakeFiles/cmTC_ea052.dir/src.c.o
-[2/2] Linking C executable cmTC_ea052
-FAILED: cmTC_ea052 
-: && /usr/bin/gcc   CMakeFiles/cmTC_ea052.dir/src.c.o -o cmTC_ea052   && :
-CMakeFiles/cmTC_ea052.dir/src.c.o: In function `main':
-src.c:(.text+0x3e): undefined reference to `pthread_create'
-src.c:(.text+0x4a): undefined reference to `pthread_detach'
-src.c:(.text+0x56): undefined reference to `pthread_cancel'
-src.c:(.text+0x67): undefined reference to `pthread_join'
-src.c:(.text+0x7b): undefined reference to `pthread_atfork'
+Run Build Command(s):/usr/bin/make cmTC_85b07/fast && /usr/bin/make -f CMakeFiles/cmTC_85b07.dir/build.make CMakeFiles/cmTC_85b07.dir/build
+make[1]: Entering directory '/home/car/Project/iLQR_interior-point-method/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85b07.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_85b07.dir/src.c.o   -c /home/car/Project/iLQR_interior-point-method/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_85b07
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85b07.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_85b07.dir/src.c.o  -o cmTC_85b07 
+/usr/bin/ld: CMakeFiles/cmTC_85b07.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-ninja: build stopped: subcommand failed.
+make[1]: *** [CMakeFiles/cmTC_85b07.dir/build.make:87: cmTC_85b07] Error 1
+make[1]: Leaving directory '/home/car/Project/iLQR_interior-point-method/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_85b07/fast] Error 2
 
 
 Source file was:
 #include <pthread.h>
 
-static void* test_func(void* data)
+void* test_func(void* data)
 {
   return data;
 }
@@ -83,7 +31,6 @@ int main(void)
   pthread_t thread;
   pthread_create(&thread, NULL, test_func, NULL);
   pthread_detach(thread);
-  pthread_cancel(thread);
   pthread_join(thread, NULL);
   pthread_atfork(NULL, NULL, NULL);
   pthread_exit(NULL);
@@ -91,17 +38,21 @@ int main(void)
   return 0;
 }
 
-
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/dmz/Baidu/ipddp_test/build/CMakeFiles/CMakeScratch/TryCompile-CDNiZP
+Change Dir: /home/car/Project/iLQR_interior-point-method/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/home/dmz/anaconda3/bin/ninja cmTC_06f80 && [1/2] Building C object CMakeFiles/cmTC_06f80.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_06f80
-FAILED: cmTC_06f80 
-: && /usr/bin/gcc -DCHECK_FUNCTION_EXISTS=pthread_create  CMakeFiles/cmTC_06f80.dir/CheckFunctionExists.c.o -o cmTC_06f80  -lpthreads && :
+Run Build Command(s):/usr/bin/make cmTC_610b2/fast && /usr/bin/make -f CMakeFiles/cmTC_610b2.dir/build.make CMakeFiles/cmTC_610b2.dir/build
+make[1]: Entering directory '/home/car/Project/iLQR_interior-point-method/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_610b2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_610b2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_610b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_610b2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_610b2.dir/CheckFunctionExists.c.o  -o cmTC_610b2  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-ninja: build stopped: subcommand failed.
+make[1]: *** [CMakeFiles/cmTC_610b2.dir/build.make:87: cmTC_610b2] Error 1
+make[1]: Leaving directory '/home/car/Project/iLQR_interior-point-method/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_610b2/fast] Error 2
 
 
 

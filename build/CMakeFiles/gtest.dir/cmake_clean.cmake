@@ -1,13 +1,13 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gtest"
   "CMakeFiles/gtest-complete"
+  "gtest/src/gtest-stamp/gtest-build"
+  "gtest/src/gtest-stamp/gtest-configure"
+  "gtest/src/gtest-stamp/gtest-download"
   "gtest/src/gtest-stamp/gtest-install"
   "gtest/src/gtest-stamp/gtest-mkdir"
-  "gtest/src/gtest-stamp/gtest-download"
-  "gtest/src/gtest-stamp/gtest-update"
   "gtest/src/gtest-stamp/gtest-patch"
-  "gtest/src/gtest-stamp/gtest-configure"
-  "gtest/src/gtest-stamp/gtest-build"
+  "gtest/src/gtest-stamp/gtest-update"
 )
 
 # Per-language clean rules from dependency scanning.

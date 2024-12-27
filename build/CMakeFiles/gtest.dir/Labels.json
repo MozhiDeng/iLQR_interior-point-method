@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/dmz/Baidu/ipddp_test/build/CMakeFiles/gtest"
+			"file" : "/home/car/Project/iLQR_interior-point-method/build/CMakeFiles/gtest"
 		},
 		{
-			"file" : "/home/dmz/Baidu/ipddp_test/build/CMakeFiles/gtest.rule"
+			"file" : "/home/car/Project/iLQR_interior-point-method/build/CMakeFiles/gtest.rule"
 		},
 		{
-			"file" : "/home/dmz/Baidu/ipddp_test/build/CMakeFiles/gtest-complete.rule"
+			"file" : "/home/car/Project/iLQR_interior-point-method/build/CMakeFiles/gtest-complete.rule"
 		},
 		{
-			"file" : "/home/dmz/Baidu/ipddp_test/build/gtest/src/gtest-stamp/gtest-build.rule"
+			"file" : "/home/car/Project/iLQR_interior-point-method/build/gtest/src/gtest-stamp/gtest-install.rule"
 		},
 		{
-			"file" : "/home/dmz/Baidu/ipddp_test/build/gtest/src/gtest-stamp/gtest-configure.rule"
+			"file" : "/home/car/Project/iLQR_interior-point-method/build/gtest/src/gtest-stamp/gtest-mkdir.rule"
 		},
 		{
-			"file" : "/home/dmz/Baidu/ipddp_test/build/gtest/src/gtest-stamp/gtest-download.rule"
+			"file" : "/home/car/Project/iLQR_interior-point-method/build/gtest/src/gtest-stamp/gtest-download.rule"
 		},
 		{
-			"file" : "/home/dmz/Baidu/ipddp_test/build/gtest/src/gtest-stamp/gtest-install.rule"
+			"file" : "/home/car/Project/iLQR_interior-point-method/build/gtest/src/gtest-stamp/gtest-update.rule"
 		},
 		{
-			"file" : "/home/dmz/Baidu/ipddp_test/build/gtest/src/gtest-stamp/gtest-mkdir.rule"
+			"file" : "/home/car/Project/iLQR_interior-point-method/build/gtest/src/gtest-stamp/gtest-patch.rule"
 		},
 		{
-			"file" : "/home/dmz/Baidu/ipddp_test/build/gtest/src/gtest-stamp/gtest-patch.rule"
+			"file" : "/home/car/Project/iLQR_interior-point-method/build/gtest/src/gtest-stamp/gtest-configure.rule"
 		},
 		{
-			"file" : "/home/dmz/Baidu/ipddp_test/build/gtest/src/gtest-stamp/gtest-update.rule"
+			"file" : "/home/car/Project/iLQR_interior-point-method/build/gtest/src/gtest-stamp/gtest-build.rule"
 		}
 	],
 	"target" : 

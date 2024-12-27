@@ -13,16 +13,16 @@ using std::endl;
 // initialize: us, xs, y_t, s, mu_set
 double IPDDP::init_traj(const VectorXd& x_0, 
         const VecOfVecXd& u_0, 
-        std::vector<std::vector<double> > road_date,
+        std::vector<std::vector<double> > road_data,
         int index_data) {
     
     // initialize feasible area(circle point)
-    calculate_roadside_and_reference_line(road_date,
+    calculate_roadside_and_reference_line(road_data,
         road_left_side,
         road_right_side,
         road_reference_line);
     compress_road_side();
-    std::string compress_road_path = "/home/dmz/Baidu/ipddp_test/compress_road_path_data"; 
+    std::string compress_road_path = "/home/car/Project/iLQR_interior-point-method/compress_road_path_data"; 
     std::string compress_fileName = compress_road_path + "/" + 
             "road_path_compress" + std::to_string(index_data) + ".csv";
     output_road_to_csv(compress_fileName);
@@ -60,7 +60,7 @@ double IPDDP::init_traj(const VectorXd& x_0,
     // initialize:us, constrains, xs; return:total_cost
     double cost_init = initialroll(x0, us); 
     //cout << "cost_init = " << cost_init << endl;
-
+    
     //allocate everything
     fx.resize(T+1);
     fu.resize(T+1);
@@ -98,24 +98,25 @@ double IPDDP::init_traj(const VectorXd& x_0,
     std::fill(Ky.begin(), Ky.end(), MatrixXd::Zero(model->c_dims,model->x_dims));
     std::fill(constrains_x.begin(), constrains_x.end(), MatrixXd::Zero(model->c_dims, model->x_dims));
     std::fill(constrains_u.begin(), constrains_u.end(), MatrixXd::Zero(model->c_dims, model->u_dims));
-
+    
+    return 0;
 }
 
 void IPDDP::generate_trajectory(const VectorXd& x_0, 
         const VecOfVecXd& u0, 
-        std::vector<std::vector<double>>& rode_date,
+        std::vector<std::vector<double>>& rode_data,
         int index_data) {
     
     // initialize: us, xs, constrains, y_t, s, mu_set
-    init_traj(x_0, u0, rode_date, index_data);    
-
+    init_traj(x_0, u0, rode_data, index_data);    
+    
     generate_trajectory(index_data);
 }
 
 void IPDDP::generate_trajectory(int index_data) {
 
     #ifdef TIMESTUFF
-    auto all_start = std::chrono::system_clock::now();
+    auto all_start = std::chrono::system_clock::now();  // 记录整体开始时间
     #endif
     
     // initial mu
@@ -128,12 +129,12 @@ void IPDDP::generate_trajectory(int index_data) {
    
     // constants, times, counters
     flagChange = true;
-
+    bool time_out = false;
+    #ifdef TIMESTUFF
+    auto start_iter = std::chrono::system_clock::now();  // 记录每次迭代的开始时间
+    #endif
     for (iter=0; iter<maxIter; iter++) {
 
-        #ifdef TIMESTUFF
-        auto start = std::chrono::system_clock::now();
-        #endif
         //cout << "--------------------" << endl;
         //cout << "iter = " << iter << endl;
         while(true) {
@@ -145,15 +146,27 @@ void IPDDP::generate_trajectory(int index_data) {
                 flagChange = 0;
             }
             backward_pass();
-            if(bp_failed==0) break;     
-        } 
 
+            // 反向传播结束后的时间测量
+            auto end_bp = std::chrono::system_clock::now();
+            std::chrono::duration<double> elapsed_seconds_bp = end_bp - start_iter;
+            auto elapsed_ms = std::chrono::duration_cast<std::chrono::milliseconds>(elapsed_seconds_bp).count();
+            if(elapsed_ms >= 3000) {
+                std::cout << "time out: " << elapsed_ms << "ms" << std::endl;
+                time_out = true;
+                break;
+            }else if(bp_failed==0) {
+                break;
+            }
+        } 
         forward_pass();
 
         #ifdef TIMESTUFF
-        auto end = std::chrono::system_clock::now();
-        long int time = std::chrono::duration_cast<std::chrono::milliseconds>(end-start).count();
+        auto end_iter = std::chrono::system_clock::now();  // 记录每次迭代的结束时间
+        long int iter_time = std::chrono::duration_cast<std::chrono::milliseconds>(end_iter - start_iter).count();
         #endif
+
+        if(time_out) break;
         
         // terminal condition
         if (std::max<double>(bp_opterr, alg.mu) <= alg.tolerance) {
@@ -176,7 +189,7 @@ void IPDDP::generate_trajectory(int index_data) {
     #endif
 
     cout << "iter = " << iter << endl;
-    std::string outputPath = "/home/dmz/Baidu/ipddp_test/road_path_planning_data";
+    std::string outputPath = "/home/car/Project/iLQR_interior-point-method/road_path_planning_data";
     std::string fileName = outputPath + "/" +"ipddp_result" + std::to_string(index_data) + ".csv";
     //cout << fileName << endl;
     output_to_csv(fileName);
@@ -215,13 +228,13 @@ void IPDDP::generate_trajectory(int index_data) {
 
 }
 
-void IPDDP::calculate_roadside_and_reference_line(std::vector<std::vector<double>>& road_date,
+void IPDDP::calculate_roadside_and_reference_line(std::vector<std::vector<double>>& road_data,
     VecofVec2d& road_left_side,
     VecofVec2d& road_right_side,
     VecofVec2d& road_reference_line) {
     Eigen::Vector2d tmp_left_point, tmp_right_point, tmp_reference_point;
 
-    for(const auto& rode_date_row : road_date) {
+    for(const auto& rode_date_row : road_data) {
 
         tmp_reference_point[0] = rode_date_row[0];
         tmp_reference_point[1] = rode_date_row[1];
