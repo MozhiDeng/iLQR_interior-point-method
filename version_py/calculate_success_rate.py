@@ -19,7 +19,8 @@ def count_time_out(file_path):
     return time_out_count, sum_count
 
 def main():
-    file_path = "/home/car/Project/iLQR_interior-point-method/output.txt"
+    # file_path = "/home/car/Project/iLQR_interior-point-method/output.txt"
+    file_path = "./output.txt"
     time_out_count, sum_count = count_time_out(file_path)
     print(f"interior iLQR success rate:{100*(1-time_out_count/sum_count)}%")
 

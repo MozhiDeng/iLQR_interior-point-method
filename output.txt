@@ -2,98 +2,98 @@
 iter = 37
 path_cost = 4.71188e-08
 max_breach_constrains = 8.54481
-IPDDP took: 73ms
-Index 1: IPDDP took: 73ms
+IPDDP took: 84ms
+Index 1: IPDDP took: 84ms
 /home/car/Project/iLQR_interior-point-method/road_data/data2.txt
 iter = 1000
 path_cost = 1.73626e-06
 max_breach_constrains = 7.16614
-IPDDP took: 1853ms
-Index 2: IPDDP took: 1853ms
+IPDDP took: 1939ms
+Index 2: IPDDP took: 1939ms
 /home/car/Project/iLQR_interior-point-method/road_data/data3.txt
 iter = 41
 path_cost = 1.9562e-07
 max_breach_constrains = 6.68589
-IPDDP took: 81ms
-Index 3: IPDDP took: 81ms
+IPDDP took: 83ms
+Index 3: IPDDP took: 83ms
 /home/car/Project/iLQR_interior-point-method/road_data/data4.txt
 iter = 39
 path_cost = 2.47608e-08
 max_breach_constrains = 7.30859
-IPDDP took: 76ms
-Index 4: IPDDP took: 76ms
+IPDDP took: 80ms
+Index 4: IPDDP took: 80ms
 /home/car/Project/iLQR_interior-point-method/road_data/data5.txt
 iter = 1000
 path_cost = 4.06314e-07
 max_breach_constrains = 6.21213
-IPDDP took: 1840ms
-Index 5: IPDDP took: 1840ms
+IPDDP took: 1970ms
+Index 5: IPDDP took: 1970ms
 /home/car/Project/iLQR_interior-point-method/road_data/data6.txt
 iter = 63
 path_cost = 3.77257e-07
 max_breach_constrains = 7.27914
-IPDDP took: 124ms
-Index 6: IPDDP took: 124ms
+IPDDP took: 129ms
+Index 6: IPDDP took: 129ms
 /home/car/Project/iLQR_interior-point-method/road_data/data7.txt
 iter = 33
 path_cost = 3.71687e-08
 max_breach_constrains = 8.30406
-IPDDP took: 66ms
-Index 7: IPDDP took: 66ms
+IPDDP took: 70ms
+Index 7: IPDDP took: 70ms
 /home/car/Project/iLQR_interior-point-method/road_data/data8.txt
 iter = 39
 path_cost = 1.34177e-07
 max_breach_constrains = 6.90865
-IPDDP took: 76ms
-Index 8: IPDDP took: 76ms
+IPDDP took: 80ms
+Index 8: IPDDP took: 80ms
 /home/car/Project/iLQR_interior-point-method/road_data/data9.txt
 iter = 1000
 path_cost = 1.56528e-06
 max_breach_constrains = 6.0434
-IPDDP took: 1859ms
-Index 9: IPDDP took: 1859ms
+IPDDP took: 1955ms
+Index 9: IPDDP took: 1955ms
 /home/car/Project/iLQR_interior-point-method/road_data/data10.txt
 iter = 40
 path_cost = 3.87859e-07
 max_breach_constrains = 6.75939
-IPDDP took: 77ms
-Index 10: IPDDP took: 77ms
+IPDDP took: 80ms
+Index 10: IPDDP took: 80ms
 /home/car/Project/iLQR_interior-point-method/road_data/data11.txt
 iter = 37
 path_cost = 7.86535e-08
 max_breach_constrains = 6.87112
-IPDDP took: 72ms
-Index 11: IPDDP took: 72ms
+IPDDP took: 75ms
+Index 11: IPDDP took: 75ms
 /home/car/Project/iLQR_interior-point-method/road_data/data12.txt
 iter = 1000
 path_cost = 3.49446e-06
 max_breach_constrains = 7.20086
-IPDDP took: 1829ms
-Index 12: IPDDP took: 1829ms
+IPDDP took: 1965ms
+Index 12: IPDDP took: 1965ms
 /home/car/Project/iLQR_interior-point-method/road_data/data13.txt
 iter = 1000
 path_cost = 1.22552e-06
 max_breach_constrains = 8.28721
-IPDDP took: 1827ms
-Index 13: IPDDP took: 1827ms
+IPDDP took: 1836ms
+Index 13: IPDDP took: 1836ms
 /home/car/Project/iLQR_interior-point-method/road_data/data14.txt
 iter = 76
 path_cost = 2.74091e-07
 max_breach_constrains = 7.82305
-IPDDP took: 144ms
-Index 14: IPDDP took: 144ms
+IPDDP took: 147ms
+Index 14: IPDDP took: 147ms
 /home/car/Project/iLQR_interior-point-method/road_data/data15.txt
 iter = 1000
 path_cost = 6.38062e-07
 max_breach_constrains = 6.33873
-IPDDP took: 1825ms
-Index 15: IPDDP took: 1825ms
+IPDDP took: 1829ms
+Index 15: IPDDP took: 1829ms
 /home/car/Project/iLQR_interior-point-method/road_data/data16.txt
 iter = 1000
 path_cost = 2.51995e-06
 max_breach_constrains = 6.8286
-IPDDP took: 1843ms
-Index 16: IPDDP took: 1843ms
+IPDDP took: 1877ms
+Index 16: IPDDP took: 1877ms
 /home/car/Project/iLQR_interior-point-method/road_data/data17.txt
 iter = 36
 path_cost = 9.00474e-08
@@ -104,57 +104,57 @@ Index 17: IPDDP took: 70ms
 iter = 60
 path_cost = 2.56853e-07
 max_breach_constrains = 6.48307
-IPDDP took: 116ms
-Index 18: IPDDP took: 116ms
+IPDDP took: 117ms
+Index 18: IPDDP took: 117ms
 /home/car/Project/iLQR_interior-point-method/road_data/data19.txt
 time out: 3000ms
 iter = 73
 path_cost = 2.44546e-07
 max_breach_constrains = 7.96311
-IPDDP took: 3000ms
-Index 19: IPDDP took: 3000ms
+IPDDP took: 3001ms
+Index 19: IPDDP took: 3001ms
 /home/car/Project/iLQR_interior-point-method/road_data/data20.txt
 iter = 46
 path_cost = 1.16594e-07
 max_breach_constrains = 6.63335
-IPDDP took: 89ms
-Index 20: IPDDP took: 89ms
+IPDDP took: 90ms
+Index 20: IPDDP took: 90ms
 /home/car/Project/iLQR_interior-point-method/road_data/data21.txt
 iter = 49
 path_cost = 3.02577e-09
 max_breach_constrains = 6.29189
-IPDDP took: 94ms
-Index 21: IPDDP took: 94ms
+IPDDP took: 97ms
+Index 21: IPDDP took: 97ms
 /home/car/Project/iLQR_interior-point-method/road_data/data22.txt
 iter = 1000
 path_cost = 4.4429e-07
 max_breach_constrains = 6.6967
-IPDDP took: 1834ms
-Index 22: IPDDP took: 1834ms
+IPDDP took: 1841ms
+Index 22: IPDDP took: 1841ms
 /home/car/Project/iLQR_interior-point-method/road_data/data23.txt
 iter = 1000
 path_cost = 1.24899e-07
 max_breach_constrains = 8.10357
-IPDDP took: 1831ms
-Index 23: IPDDP took: 1831ms
+IPDDP took: 1839ms
+Index 23: IPDDP took: 1839ms
 /home/car/Project/iLQR_interior-point-method/road_data/data24.txt
 iter = 1000
 path_cost = 1.0874e-07
 max_breach_constrains = 5.88868
-IPDDP took: 1839ms
-Index 24: IPDDP took: 1839ms
+IPDDP took: 1851ms
+Index 24: IPDDP took: 1851ms
 /home/car/Project/iLQR_interior-point-method/road_data/data25.txt
 iter = 1000
 path_cost = 2.56392e-06
 max_breach_constrains = 7.70825
-IPDDP took: 1847ms
-Index 25: IPDDP took: 1847ms
+IPDDP took: 1850ms
+Index 25: IPDDP took: 1850ms
 /home/car/Project/iLQR_interior-point-method/road_data/data26.txt
 iter = 1000
 path_cost = 2.2306e-08
 max_breach_constrains = 6.08733
-IPDDP took: 1838ms
-Index 26: IPDDP took: 1838ms
+IPDDP took: 1841ms
+Index 26: IPDDP took: 1841ms
 /home/car/Project/iLQR_interior-point-method/road_data/data27.txt
 time out: 3000ms
 iter = 65
@@ -172,56 +172,56 @@ Index 28: IPDDP took: 127ms
 iter = 45
 path_cost = 1.0594e-07
 max_breach_constrains = 6.85287
-IPDDP took: 89ms
-Index 29: IPDDP took: 89ms
+IPDDP took: 87ms
+Index 29: IPDDP took: 87ms
 /home/car/Project/iLQR_interior-point-method/road_data/data30.txt
 iter = 40
 path_cost = 8.17868e-08
 max_breach_constrains = 7.16124
-IPDDP took: 78ms
-Index 30: IPDDP took: 78ms
+IPDDP took: 80ms
+Index 30: IPDDP took: 80ms
 /home/car/Project/iLQR_interior-point-method/road_data/data31.txt
 iter = 1000
 path_cost = 1.79801e-07
 max_breach_constrains = 6.41647
-IPDDP took: 1867ms
-Index 31: IPDDP took: 1867ms
+IPDDP took: 1841ms
+Index 31: IPDDP took: 1841ms
 /home/car/Project/iLQR_interior-point-method/road_data/data32.txt
 iter = 1000
 path_cost = 4.81241e-07
 max_breach_constrains = 6.94866
-IPDDP took: 1879ms
-Index 32: IPDDP took: 1879ms
+IPDDP took: 1863ms
+Index 32: IPDDP took: 1863ms
 /home/car/Project/iLQR_interior-point-method/road_data/data33.txt
 iter = 36
 path_cost = 1.70697e-07
 max_breach_constrains = 7.52077
-IPDDP took: 70ms
-Index 33: IPDDP took: 70ms
+IPDDP took: 69ms
+Index 33: IPDDP took: 69ms
 /home/car/Project/iLQR_interior-point-method/road_data/data34.txt
 iter = 42
 path_cost = 1.54889e-07
 max_breach_constrains = 6.38562
-IPDDP took: 82ms
-Index 34: IPDDP took: 82ms
+IPDDP took: 83ms
+Index 34: IPDDP took: 83ms
 /home/car/Project/iLQR_interior-point-method/road_data/data35.txt
 iter = 1000
 path_cost = 1.83428e-07
 max_breach_constrains = 6.55754
-IPDDP took: 1871ms
-Index 35: IPDDP took: 1871ms
+IPDDP took: 1853ms
+Index 35: IPDDP took: 1853ms
 /home/car/Project/iLQR_interior-point-method/road_data/data36.txt
 iter = 1000
 path_cost = 1.63428e-07
 max_breach_constrains = 8.21371
-IPDDP took: 1872ms
-Index 36: IPDDP took: 1872ms
+IPDDP took: 1856ms
+Index 36: IPDDP took: 1856ms
 /home/car/Project/iLQR_interior-point-method/road_data/data37.txt
 iter = 1000
 path_cost = 3.36802e-07
 max_breach_constrains = 6.70258
-IPDDP took: 1881ms
-Index 37: IPDDP took: 1881ms
+IPDDP took: 1876ms
+Index 37: IPDDP took: 1876ms
 /home/car/Project/iLQR_interior-point-method/road_data/data38.txt
 time out: 3000ms
 iter = 70
@@ -239,8 +239,8 @@ Index 39: IPDDP took: 91ms
 iter = 1000
 path_cost = 3.89289e-08
 max_breach_constrains = 7.06302
-IPDDP took: 1851ms
-Index 40: IPDDP took: 1851ms
+IPDDP took: 1850ms
+Index 40: IPDDP took: 1850ms
 /home/car/Project/iLQR_interior-point-method/road_data/data41.txt
 time out: 3000ms
 iter = 59
@@ -252,80 +252,80 @@ Index 41: IPDDP took: 3001ms
 iter = 39
 path_cost = 5.30403e-08
 max_breach_constrains = 6.80626
-IPDDP took: 76ms
-Index 42: IPDDP took: 76ms
+IPDDP took: 77ms
+Index 42: IPDDP took: 77ms
 /home/car/Project/iLQR_interior-point-method/road_data/data43.txt
 iter = 1000
 path_cost = 3.78763e-07
 max_breach_constrains = 7.90878
-IPDDP took: 1850ms
-Index 43: IPDDP took: 1850ms
+IPDDP took: 1836ms
+Index 43: IPDDP took: 1836ms
 /home/car/Project/iLQR_interior-point-method/road_data/data44.txt
 iter = 1000
 path_cost = 8.39926e-08
 max_breach_constrains = 5.71451
-IPDDP took: 1871ms
-Index 44: IPDDP took: 1871ms
+IPDDP took: 1860ms
+Index 44: IPDDP took: 1860ms
 /home/car/Project/iLQR_interior-point-method/road_data/data45.txt
 iter = 55
 path_cost = 3.73645e-08
 max_breach_constrains = 6.41713
-IPDDP took: 109ms
-Index 45: IPDDP took: 109ms
+IPDDP took: 107ms
+Index 45: IPDDP took: 107ms
 /home/car/Project/iLQR_interior-point-method/road_data/data46.txt
 iter = 1000
 path_cost = 2.86551e-06
 max_breach_constrains = 5.79646
-IPDDP took: 1866ms
-Index 46: IPDDP took: 1866ms
+IPDDP took: 1858ms
+Index 46: IPDDP took: 1858ms
 /home/car/Project/iLQR_interior-point-method/road_data/data47.txt
 iter = 1000
 path_cost = 7.35417e-08
 max_breach_constrains = 6.6342
-IPDDP took: 1890ms
-Index 47: IPDDP took: 1890ms
+IPDDP took: 1882ms
+Index 47: IPDDP took: 1882ms
 /home/car/Project/iLQR_interior-point-method/road_data/data48.txt
 iter = 1000
 path_cost = 4.51534e-07
 max_breach_constrains = 6.91804
-IPDDP took: 1857ms
-Index 48: IPDDP took: 1857ms
+IPDDP took: 1843ms
+Index 48: IPDDP took: 1843ms
 /home/car/Project/iLQR_interior-point-method/road_data/data49.txt
 iter = 37
 path_cost = 1.0625e-06
 max_breach_constrains = 5.68828
-IPDDP took: 73ms
-Index 49: IPDDP took: 73ms
+IPDDP took: 72ms
+Index 49: IPDDP took: 72ms
 /home/car/Project/iLQR_interior-point-method/road_data/data50.txt
 iter = 43
 path_cost = 1.34512e-07
 max_breach_constrains = 6.30075
-IPDDP took: 83ms
-Index 50: IPDDP took: 83ms
+IPDDP took: 86ms
+Index 50: IPDDP took: 86ms
 /home/car/Project/iLQR_interior-point-method/road_data/data51.txt
 iter = 1000
 path_cost = 1.26063e-07
 max_breach_constrains = 6.08123
-IPDDP took: 1861ms
-Index 51: IPDDP took: 1861ms
+IPDDP took: 1879ms
+Index 51: IPDDP took: 1879ms
 /home/car/Project/iLQR_interior-point-method/road_data/data52.txt
 iter = 88
 path_cost = 3.99144e-08
 max_breach_constrains = 5.52443
-IPDDP took: 170ms
-Index 52: IPDDP took: 170ms
+IPDDP took: 171ms
+Index 52: IPDDP took: 171ms
 /home/car/Project/iLQR_interior-point-method/road_data/data53.txt
 iter = 68
 path_cost = 6.18768e-07
 max_breach_constrains = 7.44766
-IPDDP took: 131ms
-Index 53: IPDDP took: 131ms
+IPDDP took: 133ms
+Index 53: IPDDP took: 133ms
 /home/car/Project/iLQR_interior-point-method/road_data/data54.txt
 iter = 102
 path_cost = 8.29433e-07
 max_breach_constrains = 7.61466
-IPDDP took: 192ms
-Index 54: IPDDP took: 192ms
+IPDDP took: 195ms
+Index 54: IPDDP took: 195ms
 /home/car/Project/iLQR_interior-point-method/road_data/data55.txt
 iter = 42
 path_cost = 8.70085e-08
@@ -336,194 +336,194 @@ Index 55: IPDDP took: 81ms
 iter = 57
 path_cost = 3.45637e-07
 max_breach_constrains = 6.53156
-IPDDP took: 110ms
-Index 56: IPDDP took: 110ms
+IPDDP took: 112ms
+Index 56: IPDDP took: 112ms
 /home/car/Project/iLQR_interior-point-method/road_data/data57.txt
 iter = 1000
 path_cost = 3.33845e-07
 max_breach_constrains = 6.6854
-IPDDP took: 1855ms
-Index 57: IPDDP took: 1855ms
+IPDDP took: 1846ms
+Index 57: IPDDP took: 1846ms
 /home/car/Project/iLQR_interior-point-method/road_data/data58.txt
 iter = 51
 path_cost = 4.60577e-08
 max_breach_constrains = 6.82915
-IPDDP took: 99ms
-Index 58: IPDDP took: 99ms
+IPDDP took: 100ms
+Index 58: IPDDP took: 100ms
 /home/car/Project/iLQR_interior-point-method/road_data/data59.txt
 iter = 1000
 path_cost = 5.45852e-07
 max_breach_constrains = 6.21973
-IPDDP took: 1857ms
-Index 59: IPDDP took: 1857ms
+IPDDP took: 1856ms
+Index 59: IPDDP took: 1856ms
 /home/car/Project/iLQR_interior-point-method/road_data/data60.txt
 iter = 1000
 path_cost = 1.64293e-07
 max_breach_constrains = 7.404
-IPDDP took: 1878ms
-Index 60: IPDDP took: 1878ms
+IPDDP took: 1869ms
+Index 60: IPDDP took: 1869ms
 /home/car/Project/iLQR_interior-point-method/road_data/data61.txt
 iter = 1000
 path_cost = 2.47526e-07
 max_breach_constrains = 7.02583
-IPDDP took: 1812ms
-Index 61: IPDDP took: 1812ms
+IPDDP took: 1842ms
+Index 61: IPDDP took: 1842ms
 /home/car/Project/iLQR_interior-point-method/road_data/data62.txt
 iter = 1000
 path_cost = 4.82211e-07
 max_breach_constrains = 6.95365
-IPDDP took: 1837ms
-Index 62: IPDDP took: 1837ms
+IPDDP took: 1878ms
+Index 62: IPDDP took: 1878ms
 /home/car/Project/iLQR_interior-point-method/road_data/data63.txt
 iter = 1000
 path_cost = 3.52996e-06
 max_breach_constrains = 7.10269
-IPDDP took: 1806ms
-Index 63: IPDDP took: 1806ms
+IPDDP took: 1832ms
+Index 63: IPDDP took: 1832ms
 /home/car/Project/iLQR_interior-point-method/road_data/data64.txt
 iter = 493
 path_cost = 4.17926e-08
 max_breach_constrains = 4.93878
-IPDDP took: 926ms
-Index 64: IPDDP took: 926ms
+IPDDP took: 936ms
+Index 64: IPDDP took: 936ms
 /home/car/Project/iLQR_interior-point-method/road_data/data65.txt
 iter = 37
 path_cost = 6.60481e-08
 max_breach_constrains = 6.77157
-IPDDP took: 70ms
-Index 65: IPDDP took: 70ms
+IPDDP took: 73ms
+Index 65: IPDDP took: 73ms
 /home/car/Project/iLQR_interior-point-method/road_data/data66.txt
 iter = 36
 path_cost = 6.24118e-08
 max_breach_constrains = 6.98914
-IPDDP took: 69ms
-Index 66: IPDDP took: 69ms
+IPDDP took: 72ms
+Index 66: IPDDP took: 72ms
 /home/car/Project/iLQR_interior-point-method/road_data/data67.txt
 iter = 1000
 path_cost = 1.30707e-07
 max_breach_constrains = 8.41484
-IPDDP took: 1824ms
-Index 67: IPDDP took: 1824ms
+IPDDP took: 1860ms
+Index 67: IPDDP took: 1860ms
 /home/car/Project/iLQR_interior-point-method/road_data/data68.txt
 iter = 1000
 path_cost = 3.02467e-07
 max_breach_constrains = 7.72166
-IPDDP took: 1820ms
-Index 68: IPDDP took: 1820ms
+IPDDP took: 1843ms
+Index 68: IPDDP took: 1843ms
 /home/car/Project/iLQR_interior-point-method/road_data/data69.txt
 iter = 44
 path_cost = 2.45901e-07
 max_breach_constrains = 9.29348
-IPDDP took: 84ms
-Index 69: IPDDP took: 84ms
+IPDDP took: 86ms
+Index 69: IPDDP took: 86ms
 /home/car/Project/iLQR_interior-point-method/road_data/data70.txt
 iter = 36
 path_cost = 7.61639e-08
 max_breach_constrains = 6.9151
-IPDDP took: 70ms
-Index 70: IPDDP took: 70ms
+IPDDP took: 72ms
+Index 70: IPDDP took: 72ms
 /home/car/Project/iLQR_interior-point-method/road_data/data71.txt
 iter = 1000
 path_cost = 5.3695e-08
 max_breach_constrains = 7.58159
-IPDDP took: 1817ms
-Index 71: IPDDP took: 1817ms
+IPDDP took: 1859ms
+Index 71: IPDDP took: 1859ms
 /home/car/Project/iLQR_interior-point-method/road_data/data72.txt
 iter = 37
 path_cost = 1.41796e-07
 max_breach_constrains = 6.90093
-IPDDP took: 72ms
-Index 72: IPDDP took: 72ms
+IPDDP took: 74ms
+Index 72: IPDDP took: 74ms
 /home/car/Project/iLQR_interior-point-method/road_data/data73.txt
 iter = 59
 path_cost = 1.65999e-07
 max_breach_constrains = 7.09376
-IPDDP took: 112ms
-Index 73: IPDDP took: 112ms
+IPDDP took: 144ms
+Index 73: IPDDP took: 144ms
 /home/car/Project/iLQR_interior-point-method/road_data/data74.txt
 iter = 1000
 path_cost = 4.57256e-07
 max_breach_constrains = 7.46579
-IPDDP took: 1833ms
-Index 74: IPDDP took: 1833ms
+IPDDP took: 1899ms
+Index 74: IPDDP took: 1899ms
 /home/car/Project/iLQR_interior-point-method/road_data/data75.txt
 iter = 1000
 path_cost = 5.97724e-07
 max_breach_constrains = 5.63496
-IPDDP took: 1824ms
-Index 75: IPDDP took: 1824ms
+IPDDP took: 1843ms
+Index 75: IPDDP took: 1843ms
 /home/car/Project/iLQR_interior-point-method/road_data/data76.txt
 iter = 1000
 path_cost = 8.402e-08
 max_breach_constrains = 6.90379
-IPDDP took: 1848ms
-Index 76: IPDDP took: 1848ms
+IPDDP took: 1885ms
+Index 76: IPDDP took: 1885ms
 /home/car/Project/iLQR_interior-point-method/road_data/data77.txt
 iter = 1000
 path_cost = 2.34557e-07
 max_breach_constrains = 8.44952
-IPDDP took: 1825ms
-Index 77: IPDDP took: 1825ms
+IPDDP took: 1849ms
+Index 77: IPDDP took: 1849ms
 /home/car/Project/iLQR_interior-point-method/road_data/data78.txt
 iter = 41
 path_cost = 7.08689e-08
 max_breach_constrains = 6.92926
-IPDDP took: 80ms
-Index 78: IPDDP took: 80ms
+IPDDP took: 79ms
+Index 78: IPDDP took: 79ms
 /home/car/Project/iLQR_interior-point-method/road_data/data79.txt
 iter = 32
 path_cost = 1.59345e-07
 max_breach_constrains = 6.95642
-IPDDP took: 64ms
-Index 79: IPDDP took: 64ms
+IPDDP took: 65ms
+Index 79: IPDDP took: 65ms
 /home/car/Project/iLQR_interior-point-method/road_data/data80.txt
 iter = 40
 path_cost = 2.33385e-07
 max_breach_constrains = 6.23616
-IPDDP took: 79ms
-Index 80: IPDDP took: 79ms
+IPDDP took: 80ms
+Index 80: IPDDP took: 80ms
 /home/car/Project/iLQR_interior-point-method/road_data/data81.txt
 iter = 1000
 path_cost = 6.37611e-07
 max_breach_constrains = 6.18605
-IPDDP took: 1880ms
-Index 81: IPDDP took: 1880ms
+IPDDP took: 1846ms
+Index 81: IPDDP took: 1846ms
 /home/car/Project/iLQR_interior-point-method/road_data/data82.txt
 iter = 65
 path_cost = 1.09234e-08
 max_breach_constrains = 7.31313
-IPDDP took: 132ms
-Index 82: IPDDP took: 132ms
+IPDDP took: 127ms
+Index 82: IPDDP took: 127ms
 /home/car/Project/iLQR_interior-point-method/road_data/data83.txt
 iter = 81
 path_cost = 4.46956e-08
 max_breach_constrains = 6.47712
-IPDDP took: 162ms
-Index 83: IPDDP took: 162ms
+IPDDP took: 157ms
+Index 83: IPDDP took: 157ms
 /home/car/Project/iLQR_interior-point-method/road_data/data84.txt
 iter = 1000
 path_cost = 2.62798e-06
 max_breach_constrains = 6.60784
-IPDDP took: 1876ms
-Index 84: IPDDP took: 1876ms
+IPDDP took: 1857ms
+Index 84: IPDDP took: 1857ms
 /home/car/Project/iLQR_interior-point-method/road_data/data85.txt
 iter = 41
 path_cost = 2.87759e-07
 max_breach_constrains = 7.09994
-IPDDP took: 82ms
-Index 85: IPDDP took: 82ms
+IPDDP took: 80ms
+Index 85: IPDDP took: 80ms
 /home/car/Project/iLQR_interior-point-method/road_data/data86.txt
 iter = 1000
 path_cost = 2.5971e-06
 max_breach_constrains = 6.88341
-IPDDP took: 1871ms
-Index 86: IPDDP took: 1871ms
+IPDDP took: 1859ms
+Index 86: IPDDP took: 1859ms
 /home/car/Project/iLQR_interior-point-method/road_data/data87.txt
 iter = 43
 path_cost = 3.24473e-07
 max_breach_constrains = 7.3504
-IPDDP took: 84ms
-Index 87: IPDDP took: 84ms
+IPDDP took: 83ms
+Index 87: IPDDP took: 83ms
 /home/car/Project/iLQR_interior-point-method/road_data/data88.txt
 time out: 3000ms
 iter = 72
@@ -535,44 +535,44 @@ Index 88: IPDDP took: 3001ms
 iter = 47
 path_cost = 1.20953e-06
 max_breach_constrains = 8.90289
-IPDDP took: 92ms
-Index 89: IPDDP took: 92ms
+IPDDP took: 93ms
+Index 89: IPDDP took: 93ms
 /home/car/Project/iLQR_interior-point-method/road_data/data90.txt
 iter = 1000
 path_cost = 3.69768e-07
 max_breach_constrains = 7.56772
-IPDDP took: 1835ms
-Index 90: IPDDP took: 1835ms
+IPDDP took: 1840ms
+Index 90: IPDDP took: 1840ms
 /home/car/Project/iLQR_interior-point-method/road_data/data91.txt
 iter = 50
 path_cost = 2.30238e-07
 max_breach_constrains = 8.3504
-IPDDP took: 96ms
-Index 91: IPDDP took: 96ms
+IPDDP took: 97ms
+Index 91: IPDDP took: 97ms
 /home/car/Project/iLQR_interior-point-method/road_data/data92.txt
 iter = 1000
 path_cost = 4.45426e-07
 max_breach_constrains = 6.2501
-IPDDP took: 1838ms
-Index 92: IPDDP took: 1838ms
+IPDDP took: 1855ms
+Index 92: IPDDP took: 1855ms
 /home/car/Project/iLQR_interior-point-method/road_data/data93.txt
 iter = 39
 path_cost = 1.19143e-07
 max_breach_constrains = 6.0549
-IPDDP took: 75ms
-Index 93: IPDDP took: 75ms
+IPDDP took: 77ms
+Index 93: IPDDP took: 77ms
 /home/car/Project/iLQR_interior-point-method/road_data/data94.txt
 iter = 42
 path_cost = 3.12127e-07
 max_breach_constrains = 7.34384
-IPDDP took: 83ms
-Index 94: IPDDP took: 83ms
+IPDDP took: 82ms
+Index 94: IPDDP took: 82ms
 /home/car/Project/iLQR_interior-point-method/road_data/data95.txt
 iter = 64
 path_cost = 4.64865e-07
 max_breach_constrains = 6.47313
-IPDDP took: 127ms
-Index 95: IPDDP took: 127ms
+IPDDP took: 125ms
+Index 95: IPDDP took: 125ms
 /home/car/Project/iLQR_interior-point-method/road_data/data96.txt
 time out: 3000ms
 iter = 60
@@ -584,23 +584,23 @@ Index 96: IPDDP took: 3001ms
 iter = 1000
 path_cost = 2.78393e-07
 max_breach_constrains = 7.62542
-IPDDP took: 1806ms
-Index 97: IPDDP took: 1806ms
+IPDDP took: 1823ms
+Index 97: IPDDP took: 1823ms
 /home/car/Project/iLQR_interior-point-method/road_data/data98.txt
 iter = 40
 path_cost = 2.02702e-07
 max_breach_constrains = 5.84291
-IPDDP took: 80ms
-Index 98: IPDDP took: 80ms
+IPDDP took: 78ms
+Index 98: IPDDP took: 78ms
 /home/car/Project/iLQR_interior-point-method/road_data/data99.txt
 iter = 89
 path_cost = 1.08333e-06
 max_breach_constrains = 8.68483
-IPDDP took: 174ms
-Index 99: IPDDP took: 174ms
+IPDDP took: 172ms
+Index 99: IPDDP took: 172ms
 /home/car/Project/iLQR_interior-point-method/road_data/data100.txt
 iter = 69
 path_cost = 1.92737e-07
 max_breach_constrains = 5.36916
-IPDDP took: 131ms
-Index 100: IPDDP took: 131ms
+IPDDP took: 133ms
+Index 100: IPDDP took: 133ms

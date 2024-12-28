@@ -22,9 +22,9 @@ double IPDDP::init_traj(const VectorXd& x_0,
         road_right_side,
         road_reference_line);
     compress_road_side();
-    std::string compress_road_path = "/home/car/Project/iLQR_interior-point-method/compress_road_path_data"; 
+    std::string compress_road_path = "/home/car/Project/iLQR_interior-point-method/process_road_data"; 
     std::string compress_fileName = compress_road_path + "/" + 
-            "road_path_compress" + std::to_string(index_data) + ".csv";
+            "road_compress" + std::to_string(index_data) + ".csv";
     output_road_to_csv(compress_fileName);
     
     T = u_0.size();
@@ -189,7 +189,7 @@ void IPDDP::generate_trajectory(int index_data) {
     #endif
 
     cout << "iter = " << iter << endl;
-    std::string outputPath = "/home/car/Project/iLQR_interior-point-method/road_path_planning_data";
+    std::string outputPath = "/home/car/Project/iLQR_interior-point-method/road_data";
     std::string fileName = outputPath + "/" +"ipddp_result" + std::to_string(index_data) + ".csv";
     //cout << fileName << endl;
     output_to_csv(fileName);

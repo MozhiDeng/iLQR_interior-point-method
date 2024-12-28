@@ -113,8 +113,8 @@ googletest/clean: googletest/CMakeFiles/gtest.dir/clean
 # Target rules for target googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-googlemock/CMakeFiles/gmock_main.dir/all: googletest/CMakeFiles/gtest.dir/all
 googlemock/CMakeFiles/gmock_main.dir/all: googlemock/CMakeFiles/gmock.dir/all
+googlemock/CMakeFiles/gmock_main.dir/all: googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f googlemock/CMakeFiles/gmock_main.dir/build.make googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f googlemock/CMakeFiles/gmock_main.dir/build.make googlemock/CMakeFiles/gmock_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/car/Project/iLQR_interior-point-method/build/gtest/src/gtest-build/CMakeFiles --progress-num=3,4 "Built target gmock_main"
